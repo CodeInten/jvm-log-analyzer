@@ -1,0 +1,26 @@
+{
+  "name": "jvm-log-analyzer",
+  "version": "1.0.0",
+  "description": "JVM Log Analyzer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeInten/jvm-log-analyzer.git"
+  },
+  "authors": [
+    "Dmitry404",
+    "Alex-Diez"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeInten/jvm-log-analyzer/issues"
+  },
+  "homepage": "https://github.com/CodeInten/jvm-log-analyzer#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkstyle" : "node_modules/.bin/jscs src/main/js --preset=google"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7"
+  }
+}
