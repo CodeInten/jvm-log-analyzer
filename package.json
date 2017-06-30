@@ -18,7 +18,7 @@
   "homepage": "https://github.com/CodeInten/jvm-log-analyzer#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "checkstyle" : "node_modules/.bin/jscs src/main/js --preset=google"
+    "checkstyle" : "jscs src/main/js --preset=google"
   },
   "devDependencies": {
     "jscs": "^3.0.7"
